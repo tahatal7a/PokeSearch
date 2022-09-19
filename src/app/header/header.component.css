@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+    display: flex;
+    width: 100%;
+    background-color: rgb(119, 0, 255);
+    position: relative;
+    text-align: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+nav .icon{
+    font-size: 36px;
+    font-weight: 800;
+    color: antiquewhite;
+    cursor: pointer;
+}
+nav ol{
+    display: flex;
+    margin: auto 0;
+    list-style: none;
+}
+nav ol li{
+    margin: 0 2px;
+}
+nav ol li a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+}
+nav ol li:hover a{
+    background: white;
+    color: rgb(119, 0, 255);
+}
+nav .search_box{
+    display: flex;
+    margin: auto 0;
+    height: 36px;
+    line-height: 36px;
+}
+nav .search_box input{
+    border: none;
+    outline: none;
+    background: white;
+    height: 100%;
+    padding: 0 10px;
+    font-size: 20px;
+    width: 350px;
+}
+nav .search_box span{
+    color: rgb(119, 0, 255);
+    font-size: 20px;
+    background: white;
+    height: 100%;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+}
+@media screen and (max-width:1250px){
+    nav{
+    display: block;
+    padding: 0;
+}
+nav .icon{
+    display: inline-block;
+    padding: 15px 30px;
+}
+nav .search_box{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+nav .search_box input{
+    width: 90%;
+}
+nav ol {
+    display: flex;
+    flex-direction: column;
+}
+}
