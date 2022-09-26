@@ -14,7 +14,7 @@ export class AllPokemonsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+//get the img from the api
   search(){
     this.pokemonService.getPokemons(this.name).subscribe((data:any) =>{
         this.urlimg= data.sprites.front_default

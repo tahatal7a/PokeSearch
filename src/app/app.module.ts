@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import{HttpClientModule} from '@angular/common/http';
 import { AllPokemonsComponent } from './all-pokemons/all-pokemons.component' ;
 import { FormsModule } from '@angular/forms';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -14,7 +15,8 @@ import { FormsModule } from '@angular/forms';
   declarations: [
     AppComponent,
     HeaderComponent,
-    AllPokemonsComponent
+    AllPokemonsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

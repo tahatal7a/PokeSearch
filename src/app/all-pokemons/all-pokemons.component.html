@@ -1,3 +1,14 @@
+<section>
+<h1><span style="color: orange;">P</span><span style="color: purple;">oke</span><span style="color: blue ;">S</span><span style="color: orange ;">earch</span>
+</h1>
+<div class="input_cont">
+<img src="https://i.etsystatic.com/27100843/r/il/7f38e7/3203274737/il_fullxfull.3203274737_r4lr.jpg" width="30px" height="30px">
 <input type="text" [(ngModel)]="name">
 <button (click)="search()">search</button>
-<td><img src="assets/{{urlimg}}" alt="(sin foto!)" class="img-responsive"/></td>
+</div>
+<div class="my_img">
+<td><img src="{{urlimg}}"  class="img-responsive" width="250px" height="300px"/></td>
+</div>
+
+<div class="content"><span style="color: palevioletred;"> Your chosen Pokemon is: </span><span style="color: royalblue;">{{name}}</span></div>
+</section>

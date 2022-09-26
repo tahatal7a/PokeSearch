@@ -8,7 +8,7 @@ export class PokemonService {
   constructor( private http: HttpClient) { }
 //fonction to get the pokemons from API
 getPokemons(name: string){
-  return this.http.get('${this.url}/${name}')
+  return this.http.get(`${this.url}${name}`)
 }
 
 }
