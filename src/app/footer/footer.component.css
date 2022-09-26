@@ -54,3 +54,14 @@ footer{
 .socials a:hover i{
     color: aqua;
 }
+@media screen and (max-width:1250px){
+    footer{
+        display: block;
+        padding: 0;
+        bottom: auto;
+    }
+    .socials{
+        display: flex;
+        flex-direction: column;
+    }
+}
