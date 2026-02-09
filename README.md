@@ -1,3 +1,8 @@
+# PokeSearch – Pokémon Search App
+
+PokeSearch is a simple **Pokémon search** application that lets you look up Pokémon information by name or ID using a public Pokémon API (such as PokeAPI).  
+It is designed as a practice project to explore API integration, UI design, and state management in a modern frontend framework. 
+
 # Webapp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
